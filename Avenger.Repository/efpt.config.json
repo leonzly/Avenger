@@ -1,0 +1,19 @@
+﻿{
+  "ContextClassName": "BackofficedbContext",
+  "DefaultDacpacSchema": null,
+  "IdReplace": false,
+  "IncludeConnectionString": false,
+  "OutputPath": "",
+  "ProjectRootNamespace": "Avenger.Repository",
+  "SelectedToBeGenerated": 1,
+  "Tables": [
+    {
+      "HasPrimaryKey": true,
+      "Name": "dbo.BetType"
+    }
+  ],
+  "UseDatabaseNames": false,
+  "UseFluentApiOnly": true,
+  "UseHandleBars": false,
+  "UseInflector": false
+}
