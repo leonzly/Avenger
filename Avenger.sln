@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avenger.API", "Avenger.API\Avenger.API.csproj", "{7B1AC641-C051-4F71-B2EC-F8124E46D1B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{201ADC06-5877-4FA4-9720-B8EF7561DD46} = {201ADC06-5877-4FA4-9720-B8EF7561DD46}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avenger.Common", "Avenger.Common\Avenger.Common.csproj", "{201ADC06-5877-4FA4-9720-B8EF7561DD46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avenger.Repository", "Avenger.Repository\Avenger.Repository.csproj", "{202FBD38-E052-411B-BC85-5AC4BFBBAE72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avenger.Repository", "Avenger.Repository\Avenger.Repository.csproj", "{202FBD38-E052-411B-BC85-5AC4BFBBAE72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
